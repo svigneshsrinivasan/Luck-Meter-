@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 VIGNESH SRINIVASAN. All rights reserved.
 //
 
-#import "ViewController.h"
-
+#import "CCViewController.h"
+#import "CCPlayViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.str=self.DOBTextFeild.text;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)goButtonPressed:(id)sender {
+    CCPlayViewController   *PlayViewController = [[CCPlayViewController alloc] initWithNibName:@"CCPlayViewController" bundle:nil];
+    
+    [PlayViewController passValue: self.str ];
+    [self.navigationController pushViewController:PlayViewController animated:YES];
+}
 @end
+

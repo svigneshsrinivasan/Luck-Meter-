@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470367A71BD57CA000655CC5 /* tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 470367A61BD57CA000655CC5 /* tile.m */; };
+		470367AA1BD5860200655CC5 /* CCPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470367A91BD5860200655CC5 /* CCPlayViewController.m */; };
+		470367AD1BD589D800655CC5 /* CCResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470367AC1BD589D800655CC5 /* CCResultViewController.m */; };
 		47D306951BD10A1400D8B6E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D306941BD10A1300D8B6E6 /* main.m */; };
 		47D306981BD10A1400D8B6E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D306971BD10A1400D8B6E6 /* AppDelegate.m */; };
 		47D3069B1BD10A1400D8B6E6 /* Luck_Meter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 47D306991BD10A1400D8B6E6 /* Luck_Meter.xcdatamodeld */; };
-		47D3069E1BD10A1400D8B6E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D3069D1BD10A1400D8B6E6 /* ViewController.m */; };
+		47D3069E1BD10A1400D8B6E6 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D3069D1BD10A1400D8B6E6 /* CCViewController.m */; };
 		47D306A11BD10A1400D8B6E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D3069F1BD10A1400D8B6E6 /* Main.storyboard */; };
 		47D306A31BD10A1400D8B6E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D306A21BD10A1400D8B6E6 /* Images.xcassets */; };
 		47D306A61BD10A1400D8B6E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D306A41BD10A1400D8B6E6 /* LaunchScreen.xib */; };
 		47D306B21BD10A1400D8B6E6 /* Luck_MeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D306B11BD10A1400D8B6E6 /* Luck_MeterTests.m */; };
+		47D306BF1BD1657500D8B6E6 /* up.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306BB1BD1657500D8B6E6 /* up.jpg */; };
+		47D306C01BD1657500D8B6E6 /* down.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306BC1BD1657500D8B6E6 /* down.jpg */; };
+		47D306C11BD1657500D8B6E6 /* left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306BD1BD1657500D8B6E6 /* left.jpg */; };
+		47D306C21BD1657500D8B6E6 /* right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306BE1BD1657500D8B6E6 /* right.jpg */; };
+		47D306C41BD1670800D8B6E6 /* bg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306C31BD1670800D8B6E6 /* bg1.jpg */; };
+		47D306C81BD177C800D8B6E6 /* bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306C51BD177C800D8B6E6 /* bg3.jpg */; };
+		47D306CA1BD177C800D8B6E6 /* boxes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306C71BD177C800D8B6E6 /* boxes.jpg */; };
+		47D306D01BD2409600D8B6E6 /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D306CF1BD2409600D8B6E6 /* bg2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +39,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		470367A51BD57CA000655CC5 /* tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile.h; sourceTree = "<group>"; };
+		470367A61BD57CA000655CC5 /* tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tile.m; sourceTree = "<group>"; };
+		470367A81BD5860200655CC5 /* CCPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPlayViewController.h; sourceTree = "<group>"; };
+		470367A91BD5860200655CC5 /* CCPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPlayViewController.m; sourceTree = "<group>"; };
+		470367AB1BD589D800655CC5 /* CCResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCResultViewController.h; sourceTree = "<group>"; };
+		470367AC1BD589D800655CC5 /* CCResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCResultViewController.m; sourceTree = "<group>"; };
 		47D3068F1BD10A1300D8B6E6 /* Luck Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luck Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D306931BD10A1300D8B6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D306941BD10A1300D8B6E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47D306961BD10A1400D8B6E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		47D306971BD10A1400D8B6E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		47D3069A1BD10A1400D8B6E6 /* Luck_Meter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Luck_Meter.xcdatamodel; sourceTree = "<group>"; };
-		47D3069C1BD10A1400D8B6E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		47D3069D1BD10A1400D8B6E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47D3069A1BD10A1400D8B6E6 /* Luck_Meter.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = Luck_Meter.xcdatamodel; sourceTree = "<group>"; };
+		47D3069C1BD10A1400D8B6E6 /* CCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		47D3069D1BD10A1400D8B6E6 /* CCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		47D306A01BD10A1400D8B6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47D306A21BD10A1400D8B6E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		47D306A51BD10A1400D8B6E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		47D306AB1BD10A1400D8B6E6 /* Luck MeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luck MeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D306B01BD10A1400D8B6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D306B11BD10A1400D8B6E6 /* Luck_MeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Luck_MeterTests.m; sourceTree = "<group>"; };
+		47D306BB1BD1657500D8B6E6 /* up.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = up.jpg; sourceTree = "<group>"; };
+		47D306BC1BD1657500D8B6E6 /* down.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = down.jpg; sourceTree = "<group>"; };
+		47D306BD1BD1657500D8B6E6 /* left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = left.jpg; sourceTree = "<group>"; };
+		47D306BE1BD1657500D8B6E6 /* right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = right.jpg; sourceTree = "<group>"; };
+		47D306C31BD1670800D8B6E6 /* bg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg1.jpg; sourceTree = "<group>"; };
+		47D306C51BD177C800D8B6E6 /* bg3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg3.jpg; sourceTree = "<group>"; };
+		47D306C71BD177C800D8B6E6 /* boxes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxes.jpg; sourceTree = "<group>"; };
+		47D306CF1BD2409600D8B6E6 /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +110,14 @@
 			children = (
 				47D306961BD10A1400D8B6E6 /* AppDelegate.h */,
 				47D306971BD10A1400D8B6E6 /* AppDelegate.m */,
-				47D3069C1BD10A1400D8B6E6 /* ViewController.h */,
-				47D3069D1BD10A1400D8B6E6 /* ViewController.m */,
+				47D3069C1BD10A1400D8B6E6 /* CCViewController.h */,
+				47D3069D1BD10A1400D8B6E6 /* CCViewController.m */,
+				470367A81BD5860200655CC5 /* CCPlayViewController.h */,
+				470367A91BD5860200655CC5 /* CCPlayViewController.m */,
+				470367AB1BD589D800655CC5 /* CCResultViewController.h */,
+				470367AC1BD589D800655CC5 /* CCResultViewController.m */,
+				470367A51BD57CA000655CC5 /* tile.h */,
+				470367A61BD57CA000655CC5 /* tile.m */,
 				47D3069F1BD10A1400D8B6E6 /* Main.storyboard */,
 				47D306A21BD10A1400D8B6E6 /* Images.xcassets */,
 				47D306A41BD10A1400D8B6E6 /* LaunchScreen.xib */,
@@ -99,6 +130,14 @@
 		47D306921BD10A1300D8B6E6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				47D306C31BD1670800D8B6E6 /* bg1.jpg */,
+				47D306BB1BD1657500D8B6E6 /* up.jpg */,
+				47D306BC1BD1657500D8B6E6 /* down.jpg */,
+				47D306BD1BD1657500D8B6E6 /* left.jpg */,
+				47D306BE1BD1657500D8B6E6 /* right.jpg */,
+				47D306CF1BD2409600D8B6E6 /* bg2.jpg */,
+				47D306C51BD177C800D8B6E6 /* bg3.jpg */,
+				47D306C71BD177C800D8B6E6 /* boxes.jpg */,
 				47D306931BD10A1300D8B6E6 /* Info.plist */,
 				47D306941BD10A1300D8B6E6 /* main.m */,
 			);
@@ -166,7 +205,7 @@
 		47D306871BD10A1300D8B6E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "VIGNESH SRINIVASAN";
 				TargetAttributes = {
 					47D3068E1BD10A1300D8B6E6 = {
@@ -202,9 +241,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D306C41BD1670800D8B6E6 /* bg1.jpg in Resources */,
 				47D306A11BD10A1400D8B6E6 /* Main.storyboard in Resources */,
+				47D306C01BD1657500D8B6E6 /* down.jpg in Resources */,
+				47D306C81BD177C800D8B6E6 /* bg3.jpg in Resources */,
 				47D306A61BD10A1400D8B6E6 /* LaunchScreen.xib in Resources */,
+				47D306CA1BD177C800D8B6E6 /* boxes.jpg in Resources */,
+				47D306D01BD2409600D8B6E6 /* bg2.jpg in Resources */,
+				47D306BF1BD1657500D8B6E6 /* up.jpg in Resources */,
+				47D306C11BD1657500D8B6E6 /* left.jpg in Resources */,
 				47D306A31BD10A1400D8B6E6 /* Images.xcassets in Resources */,
+				47D306C21BD1657500D8B6E6 /* right.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				470367AD1BD589D800655CC5 /* CCResultViewController.m in Sources */,
+				470367A71BD57CA000655CC5 /* tile.m in Sources */,
 				47D306981BD10A1400D8B6E6 /* AppDelegate.m in Sources */,
 				47D3069B1BD10A1400D8B6E6 /* Luck_Meter.xcdatamodeld in Sources */,
-				47D3069E1BD10A1400D8B6E6 /* ViewController.m in Sources */,
+				47D3069E1BD10A1400D8B6E6 /* CCViewController.m in Sources */,
+				470367AA1BD5860200655CC5 /* CCPlayViewController.m in Sources */,
 				47D306951BD10A1400D8B6E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +338,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -355,6 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Luck Meter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -365,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Luck Meter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -383,6 +436,7 @@
 				);
 				INFOPLIST_FILE = "Luck MeterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luck Meter.app/Luck Meter";
 			};
@@ -398,6 +452,7 @@
 				);
 				INFOPLIST_FILE = "Luck MeterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luck Meter.app/Luck Meter";
 			};
@@ -422,6 +477,7 @@
 				47D306B71BD10A1400D8B6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47D306B81BD10A1400D8B6E6 /* Build configuration list for PBXNativeTarget "Luck MeterTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +486,7 @@
 				47D306BA1BD10A1400D8B6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
